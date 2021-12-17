@@ -1,0 +1,30 @@
+/*adding a gray background to the page and choosing font*/
+body {
+    background-color: gray;
+    font-family: "Arial Black", Gadget, sans-serif;
+  }
+/*editing the table overall style*/
+table.listingsTable {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: 2px solid #000000;
+    background-color: #4A4A4A;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  /*adding a border and padding to the cells*/
+table.listingsTable td {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+  }
+  /*styling the cell font*/
+  table.listingsTable td {
+    font-size: 13px;
+    color: #E6E6E6;
+  }
+  /*changing the background of every other cell*/
+  table.listingsTable tr:nth-child(even) {
+    background: #888888;
+  }
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<HTML lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!--refer to the external stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--page title seen on the tab-->
+    <title>Project 2</title>
+</head>
+
+<body>
+    <p></p>
+    <!--instruction for first choice-->
+    <h2>Choose below to browse through today's screenings by theater</h2>
+    <!--the first choice of browsing is a pulldown menu-->
+    <!--assign name and id for element. no hardcoded event listeners-->
+    <select name="selectTheater" id="selectTheater">
+        <!--default text for menu-->
+        <option value="selection">Choose a theater
+        <!--I limited the choices to just the theaters in Helsinki. I feel the point still gets across-->
+        <option value="itis">Itis
+        <option value="kinopalatsi">Kinopalatsi
+        <option value="maxim">Maxim
+        <option value="tennispalatsi">Tennispalatsi
+    </select>
+    <!--instruction for second choice-->
+    <h2>Search for today's screening by title in all theaters</h2>
+    <!--the second choice of browsing is a search bar for all the theaters in Helsinki-->
+    <!--assign input type and id for element plus a default text-->
+    <input type="text" id="searchInput" placeholder="Search by title...">
+
+    <br>
+    <br>
+    <br>
+    <!--a div for the data-->
+    <div id="screeningData"></div>
+
+    <!--refer to the external javascript file-->
+    <script src="js/jscript.js"></script>
+</body>
+
+</html>
