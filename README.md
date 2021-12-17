@@ -10,15 +10,24 @@ The two main features I wish I had had time to implement were showing only movie
 
 As for the assignment specs:
 
-A theater can be selected from a list.
-The page shows pictures and info of ongoing movies in the theater.
-Other info is also presented.
-The layout isn't particularly nice, but its something.
-There's an input field in the search bar.
-The project is published in GitHub and Netlify.
-The code is extensively commented (I left out repetition).
-External libraries were not used.
-CSS styles were used.
-Event handlers were implemented dynamically.
+-A theater can be selected from a list.
+
+-The page shows pictures and info of ongoing movies in the theater.
+
+-Other info is also presented.
+
+-The layout isn't particularly nice, but its something.
+
+-There's an input field in the search bar.
+
+-The project is published in GitHub and Netlify.
+
+-The code is extensively commented (I left out repetition).
+
+-External libraries were not used.
+
+-CSS styles were used.
+
+-Event handlers were implemented dynamically.
 
 The code could have been a lot more polished, but I'm still not familiar enough with object oriented programming for that in this timeframe.
